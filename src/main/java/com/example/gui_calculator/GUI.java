@@ -108,7 +108,7 @@ public class GUI extends Application {
         c.setOnAction(event -> cAction());
 
         clr.setOnAction(event -> textField.clear());
-        gridPane.setPadding(new Insets(10));
+        gridPane.setPadding(new Insets(10,10,10,10));
 
         // Set scene
         Scene scene = new Scene(gridPane);
